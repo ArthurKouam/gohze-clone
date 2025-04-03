@@ -23,22 +23,22 @@
 
   const vals = [
     {
-      img: "/src/assets/i1.svg",
+      img: "/i1.svg",
       title: "Création de la valeur client",
       content: "Nous mesurons notre succès grâce à notre impact sur l’activité de nos clients. Nous tenons nos promesses, ce qui nous permet d'établir des relations à long terme",
     },
     {
-      img: "/src/assets/i2.svg",
+      img: "/i2.svg",
       title: "Travailler pour toujours être le premier",
       content: "Nous faisons confiance à la créativité de chaque collaborateur ce qui nous permet d’augmenter notre capacité d’innovation et d’être ainsi plus près de nos clients",
     },
     {
-      img: "/src/assets/i4.svg",
+      img: "/i4.svg",
       title: "Soyez audacieux et différent",
       content: "Nous agissons de façon différente afin de bousculer les situations établies à l’avance en essayant de nouvelles idées et de nouvelles approches.",
     },
     {
-      img: "/src/assets/i5.svg",
+      img: "/i5.svg",
       title: "Apprendre et avancer ensemble",
       content: "Nous valorisons la diversité des points de vue, des idées et des profils ainsi qu’un partage de connaissances entre les collaborateurs ce qui favorise l’éclosion des talents.",
     },
@@ -46,27 +46,27 @@
 
   const teams = [
     {
-      img: "/src/assets/kennedy.webp",
+      img: "/kennedy.webp",
       name: "Armel MANFOUO",
       rule: "Directeur Général"
     },
     {
-      img: "/src/assets/boris.webp",
+      img: "/boris.webp",
       name: "Boris FOADING",
       rule: "Directeur technique"
     },
     {
-      img: "/src/assets/raoul.webp",
+      img: "/raoul.webp",
       name: "Raoul DZOUKOU",
       rule: "Directeur Financier et Chef de Projet"
     },
     {
-      img: "/src/assets/kevin.webp",
+      img: "/kevin.webp",
       name: "Kevin Teguia",
       rule: "Business Developer et Chef de Projet"
     },
     {
-      img: "/src/assets/joseph.webp",
+      img: "/joseph.webp",
       name: "Tentchou Joseph",
       rule: "Directeur Commercial"
     },
@@ -103,11 +103,11 @@
             Vous êtes une entreprise ou un porteur de projet ? Profitez de notre gamme de services de très haute qualité pour optimiser votre activité, vos opérations au quotidien, vous démarquer de vos concurrents par l’innovation et ainsi améliorer votre rentabilité
           </p>
           <div class=" mt-[30px] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5   gap-5 flex-row">
-            <expCard :img="'/src/assets/web.webp'" :text="'Développement web, maintenance et hébergement'"></expCard>
-            <expCard :img="'/src/assets/mobile.webp'" :text="'Développement mobile Android et iOS, maintenance et hébergement'"></expCard>
-            <expCard :img="'/src/assets/desig.webp'" :text="'Branding, Design graphique, conception de visuels et supports de communication'"></expCard>
-            <expCard :img="'/src/assets/ui-ux.webp'" :text="'Design ou remodelage d’interfaces de sites web et d’applications web et mobile'"></expCard>
-            <expCard :img="'/src/assets/consulting.webp'" :text="'Conseil et accompagnement IT'"></expCard>
+            <expCard :img="'@/assets/web.webp'" :text="'Développement web, maintenance et hébergement'"></expCard>
+            <expCard :img="'@/assets/mobile.webp'" :text="'Développement mobile Android et iOS, maintenance et hébergement'"></expCard>
+            <expCard :img="'@/assets/desig.webp'" :text="'Branding, Design graphique, conception de visuels et supports de communication'"></expCard>
+            <expCard :img="'@/assets/ui-ux.webp'" :text="'Design ou remodelage d’interfaces de sites web et d’applications web et mobile'"></expCard>
+            <expCard :img="'@/assets/consulting.webp'" :text="'Conseil et accompagnement IT'"></expCard>
           </div>
         </div>
       </div>
