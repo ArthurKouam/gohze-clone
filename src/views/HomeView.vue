@@ -103,11 +103,11 @@
             Vous êtes une entreprise ou un porteur de projet ? Profitez de notre gamme de services de très haute qualité pour optimiser votre activité, vos opérations au quotidien, vous démarquer de vos concurrents par l’innovation et ainsi améliorer votre rentabilité
           </p>
           <div class=" mt-[30px] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5   gap-5 flex-row">
-            <expCard :img="'@/assets/web.webp'" :text="'Développement web, maintenance et hébergement'"></expCard>
-            <expCard :img="'@/assets/mobile.webp'" :text="'Développement mobile Android et iOS, maintenance et hébergement'"></expCard>
-            <expCard :img="'@/assets/desig.webp'" :text="'Branding, Design graphique, conception de visuels et supports de communication'"></expCard>
-            <expCard :img="'@/assets/ui-ux.webp'" :text="'Design ou remodelage d’interfaces de sites web et d’applications web et mobile'"></expCard>
-            <expCard :img="'@/assets/consulting.webp'" :text="'Conseil et accompagnement IT'"></expCard>
+            <expCard :img="'/web.webp'" :text="'Développement web, maintenance et hébergement'"></expCard>
+            <expCard :img="'/mobile.webp'" :text="'Développement mobile Android et iOS, maintenance et hébergement'"></expCard>
+            <expCard :img="'/desig.webp'" :text="'Branding, Design graphique, conception de visuels et supports de communication'"></expCard>
+            <expCard :img="'/ui-ux.webp'" :text="'Design ou remodelage d’interfaces de sites web et d’applications web et mobile'"></expCard>
+            <expCard :img="'/consulting.webp'" :text="'Conseil et accompagnement IT'"></expCard>
           </div>
         </div>
       </div>
@@ -134,7 +134,7 @@
         </h2>
 
         <div class=" mt-9 grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-4">
-          <val v-for="val in vals" :img="val.img" :content=" val.content" :title="val.title"></val>
+          <val v-for="vale in vals" :img="vale.img" :content=" vale.content" :title="vale.title"></val>
         </div>
 
       </div>
@@ -184,7 +184,7 @@
     </div>
 
     <div class="relative mt-[65px] w-full py-14">
-      <div class="z-0 absolute inset-0 bg-center bg-cover" style="background: url('/public/bg-stats.webp');"></div>
+      <div class="z-0 absolute inset-0 bg-center bg-cover" style="background: url('/bg-stats.webp');"></div>
       <div class="z-10 relative max-w-[1200px] px-4 mx-auto">
         <div>
           <h2 class="uppercase text-[#4B2F00] text-center font-black text-[27px] mb-4">
